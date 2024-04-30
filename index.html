@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>
+            Gaming gear
+        </title>
+        <link href="font/style.css" rel="stylesheet">
+        <link href="script.js" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+        <link rel="preload" href="img/1.png">
+        <link rel="preload" href="img/arrow.png">
+        <link rel="preload" href="img/ig.png">
+        <link rel="preload" href="img/item1.png">
+        <link rel="preload" href="img/item2.png">
+        <link rel="preload" href="img/item3.png">
+    </head>
+
+    <body>
+        <div class="base-background">
+            <div class="sec-1">
+                <img src="img/1.png" alt="gaming gear" class="foto-1">
+                <div class="header">
+                    <div class="myname"><a href="https://www.instagram.com/jovchand/" target="_blank" id="link-kuat" style="text-decoration: none; color: rgb(243, 243, 243);">
+                        J O V C H A N</a>
+                    </div>
+                    <div class="menu-icon">
+                        <i class="fas fa-bars"></i>
+                        <!-- <img src="/portfolio/img/3stroke.png" class="3s" /> -->
+                    </div>
+                    <div class="navigation-menu">
+                        <nav>
+                            <li><a href="/portfolio/index.html" id="link-kuat">Home</a></li>
+                            <li><a href="https://www.instagram.com/jovchand/" id="link-kuat" target="_blank">About Me</a></li>
+                            <!-- <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li> -->
+                        </nav>
+                    </div>
+                    <script>
+                        $(".menu-icon").click(function(){
+                            $(this).toggleClass("active");
+                            $(".navigation-menu").toggleClass("active");
+                            $(".menu-icon i").toggleClass("fa-times");
+                        });
+                    </script>
+                </div>
+                <div class="intro-text">
+                    <h1 class="h1">Gaming Gear.</h1>
+                    <p class="intro-paragraph">I know my gear's not that expensive but they're meaningfull to me ♥</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="item-sec">
+            <section id="main-content" class="container">
+
+                <div class="iitem item1 appear1">
+                    <img src="img/item1.png" class="foto-item1">
+                    <div class="text-item1">
+                        <h2 class="h2-item h2-item1">#1</h2>
+                        <h4 class="h4-item h4-item1">Rexus Thundervox HX20</h4>
+                        <p class="ket">
+                            Ini Headset gaming pertama gua yang gua dapetin sebagai kado ulang tahun gua yang ke 18 tahun, 
+                            selama 2 tahun pemakaian tidak pernah ada problem dan quality yang gua dapet lebih dari kata bagus.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="iitem item2 appear2">
+                    <div class="text-item2">
+                        <h2 class="h2-item h2-item2">#2</h2>
+                        <h4 class="h4-item h4-item2">Fantech Helios GO XD5</h4>
+                        <p class="ket">
+                            Ini Mouse termahal yang gua punya dan itupun gua dapetnya pas banget brand fantech kasih discount gede banget di shopee
+                            yang aslinya dibandrol harga 600K+ gua beli cuma 360K+, overall mouse ini gua acungin jempol.
+                        </p>
+                    </div>
+                    <img src="img/item2.png" class="foto-item2">
+                </div>
+
+                <div class="iitem item3 appear3">
+                    <img src="img/item3.png" class="foto-item3">
+                    <div class="text-item3">
+                        <h2 class="h2-item h2-item3">#3</h2>
+                        <h4 class="h4-item h4-item3">Redragon keyboard K630</h4>
+                        <p class="ket">
+                            Kayaknya semua barang gua, gua beli waktu discount deh. gua beli keyboard ini dari 390K+ jadi 290K dan itupun ada cashback lagi 30K
+                            pake payment method ovo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="iitem item4 appear4">
+                    <div class="text-item4">
+                        <h2 class="h2-item h2-item4">#4</h2>
+                        <h4 class="h4-item h4-item4">AOC Monitor 24G2E</h4>
+                        <p class="ket">
+                            Ini Monitor gua beli karna sebelomnya gua pake TV tapi karna terlalu panas jadi kayak ada pulau di tengah kanan gitu,
+                            jadi setiap gua nntn horror gitu kayak ada pulaunya terang kan gaasik cok.
+                        </p>
+                    </div>
+                    <img src="img/item4.png" class="foto-item4">
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-isi">
+                <div class="footer-1">
+                    <!-- <a href="#" class="footsie"> -->
+                    <div class="author footsie">© 2022 Jovchan</div>
+                    <!-- </a> -->
+                </div>
+                <div class="footer-2">
+                    <!-- <a href="#" class="footsie"> -->
+                        <div class="footer-contact footsie">Contact</div>
+                    <!-- </a> -->
+                </div>
+                <div class="footer-logo">
+                    <a href="https://www.instagram.com/jovchand/" id="link-kuat" target="_blank" class="logo-foot logo1">
+                        <img src="img/ig.png"/>
+                    </a>
+                    <a href="#" id="link-kuat" class="logo-foot logo2">
+                        <img clas="backt-to-top" src="img/arrow.png"/>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
